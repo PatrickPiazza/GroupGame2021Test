@@ -5,10 +5,21 @@
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
-	"usedAddons": [],
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Shape3D",
+			"name": "3D shape",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
+		}
+	],
 	"uniqueId": "79vuq06c1cr",
 	"objectTypes": {
-		"items": [],
+		"items": [
+			"3DShape"
+		],
 		"subfolders": []
 	},
 	"autosaveData": null,
